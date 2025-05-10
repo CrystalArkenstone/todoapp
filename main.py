@@ -19,7 +19,7 @@ app = FastAPI(title="To Do App, lifespan=lifespan")
 
 
 app.add_middleware(
-    CORSMiddleware
+    CORSMiddleware,
     allow_origins=['*'],
     allow_credentials=True,
     allow_methods=["*"],
