@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<title>Обложка книги</title>
+</head>
+<body>
+<h1>Обложка книги</h1>
+
+<!-- Видео -->
+<video src="{{ url_for('static', filename='cover-video.mp4') }}" controls autoplay muted loop style="width:100%; aspect-ratio:9/16;"></video>
+
+<!-- Форма с кнопкой -->
+<form method="post">
+    <button type="submit">Перейти к следующей странице</button>
+</form>
+
+</body>
+</html>
